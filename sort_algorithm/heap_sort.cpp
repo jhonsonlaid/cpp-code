@@ -27,7 +27,6 @@ void topDown(vector<int>& v, int start, int end){
 		if (right < end && v[right] > v[max])
 			max = right;
 		
-		// this is why nlog(n)
 		if (j == max){
 			break;
 		}
